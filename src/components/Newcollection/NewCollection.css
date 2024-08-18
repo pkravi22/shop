@@ -1,0 +1,23 @@
+.newcollection {
+    text-align: center;
+    padding: 10px;
+}
+
+.newcollection h1 {
+    color: #423e3e;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.new_collection_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}

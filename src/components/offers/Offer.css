@@ -1,0 +1,27 @@
+
+
+.offers{
+    display: flex;
+    width: 80%;
+    margin: auto;
+     padding: 50px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 60%);
+   gap: 80px;
+}
+.offers_left{
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+.offers_left button{
+     background-color: red;
+     color: black;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+
+}
+.offers_right img{
+height: 80vh;
+
+}

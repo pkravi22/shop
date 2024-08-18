@@ -1,0 +1,16 @@
+.newsletter{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea 60%);
+text-align: center;
+padding: 20px;
+}
+#newsBtn{
+    border: none;
+    background-color: #e06f49;
+    border-radius: 5px;
+    padding: 10px;
+}
+#newsBtn:hover{
+    background-color: #f1470e;
+}

@@ -1,0 +1,12 @@
+.category_collection{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  gap: 16px; 
+  margin:auto;
+    margin-top: 10px;
+
+}
+.heading{
+    display: flex;
+    gap: 300px;
+}

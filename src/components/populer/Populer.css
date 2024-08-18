@@ -1,0 +1,29 @@
+.populer {
+    text-align: center;
+    padding: 10px;
+}
+
+.populer h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.populer hr {
+    width: 200px;  
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin: 20px auto;
+}
+
+.populer_item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}

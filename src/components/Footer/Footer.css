@@ -1,0 +1,42 @@
+.footer{
+    
+    width: 1200PX;
+   display: flex;
+padding: 20px;
+justify-content: center;
+align-items: center;
+    background-color: rgb(84, 210, 210);
+}
+.footer-logo{
+    display: flex;
+
+}
+.links_logo{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo h3{
+    margin-top:40px;
+    font-size: 1.4em;
+}
+.footer_links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.footer_social_icon{
+    margin-left: 30px;
+    display: flex;
+    gap: 50px;
+}
+hr{
+    width: 300px;
+    margin-top: 10px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+.copyright{
+    margin-left: 60px;
+    font-family:cursive
+}
